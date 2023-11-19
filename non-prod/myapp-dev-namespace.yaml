@@ -7,5 +7,5 @@ metadata:
     application: myapp
     size: medium
     team: team-a
-    environment: prod
-  name: myapp-prod
+    environment: dev
+  name: myapp-dev
