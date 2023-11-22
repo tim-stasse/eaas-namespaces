@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    openshift.io/description: my wonderful service
+  labels:
+    application: myservice
+    size: medium
+    team: team-b
+    environment: qa
+  name: myservice-qa
